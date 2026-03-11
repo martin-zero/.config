@@ -2,16 +2,16 @@ local wezterm = require("wezterm")
 local config = {
 	-- 边框大小
 	window_padding = {
-		left = 1,
+		left = 5,
 		right = 1,
 		top = 0,
 		bottom = 0,
 	},
 	-- 终端高度
-	initial_rows = 60,
+	initial_rows = 48,
 	-- 终端宽度
 	initial_cols = 180,
-	-- 主题颜色
+	-- 主题
 	color_scheme = "Catppuccin Macchiato",
 	-- 字体
 	font = wezterm.font("Google Sans Code"),

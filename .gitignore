@@ -1,0 +1,8 @@
+*
+
+!.gitignore
+!lazygit/
+!nvim/
+!wezterm/
+!yazi/
+
