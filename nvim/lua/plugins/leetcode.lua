@@ -8,7 +8,7 @@ return {
     },
     opts = {
       -- configuration goes here
-      lang = "cpp",
+      lang = "c",
       cn = { -- leetcode.cn
         enabled = true, ---@type boolean
         translator = true, ---@type boolean
