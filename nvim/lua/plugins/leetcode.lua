@@ -1,3 +1,4 @@
+-- leetcode 刷题插件 nvim版，可以通过:Leet进入
 return {
   {
     "kawre/leetcode.nvim",

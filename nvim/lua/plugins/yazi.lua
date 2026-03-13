@@ -1,3 +1,4 @@
+-- yazi 插件，可以在nvim中使用yazi直接跳转文件
 return {
   ---@type LazySpec
   {
@@ -19,7 +20,7 @@ return {
         -- Open in the current working directory
         "<leader>cw",
         "<cmd>Yazi cwd<cr>",
-        desc = "Open the file manager in nvim's working directory",
+        desc = "Yazi",
       },
       {
         "<c-up>",
