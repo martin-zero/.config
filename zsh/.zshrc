@@ -34,6 +34,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # 设置别名快捷打开
 alias lg='lazygit'
 alias vi='nvim'
+alias ff='fastfetch'
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
