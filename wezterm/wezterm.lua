@@ -21,7 +21,7 @@ local config = {
 	-- 列间距
 	cell_width = 1.05,
 	-- 行间距
-	line_height = 1.1,
+	line_height = 1.05,
 	-- 禁用标签栏
 	enable_tab_bar = true,
 	-- 禁用系统样式
