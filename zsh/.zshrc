@@ -35,6 +35,8 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias lg='lazygit'
 alias vi='nvim'
 alias ff='fastfetch'
+alias t='trans'
+alias tsh='trans -shell'
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
