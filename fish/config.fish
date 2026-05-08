@@ -7,15 +7,13 @@ if status is-interactive
     set -x XDG_CONFIG_HOME $HOME/.config
 
     # 配置中文环境
-    set -x LANG zh_CN.UTF-8
-    set -x LANGUAGE zh_CN:zh
-    set -x LC_ALL zh_CN.UTF-8
+    set -gx LANG zh_CN.UTF-8
+    set -gx LANGUAGE zh_CN:zh
 
-    # 配置Android SDK环境变量
-    set -x ANDROID_HOME $HOME/Library/Android/sdk
-    set -x ANDROID_SDK_ROOT $ANDROID_HOME
-    set -x PATH $PATH:$ANDROID_HOME/platform-tools
-    set -x PATH $PATH:$ANDROID_HOME/tools/bin
+    # 环境变量
+    fish_add_path /usr/local/bin
+    fish_add_path /opt/homebrew/bin
+    fish_add_path $HOME/.local/bin
 
     # 设置别名
     abbr lg lazygit
