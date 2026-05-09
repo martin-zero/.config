@@ -9,9 +9,13 @@ vim.pack.add({
 	-- 状态栏
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
+
+	-- 成对符号
+	{ src = "https://github.com/windwp/nvim-autopairs" },
 })
 
 require("mason").setup()
-require("plugins/lspconfig")
-require("plugins/conform")
--- require("plugins/lualine")
+require("plugins.lspconfig")
+require("plugins.conform")
+require("plugins.nvim-autopairs")
+-- require("plugins.lualine")
