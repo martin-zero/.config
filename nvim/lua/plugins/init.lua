@@ -9,4 +9,5 @@ vim.pack.add{
 }
 
 require("mason").setup()
+require("plugins/lspconfig")
 require("plugins/lualine")
