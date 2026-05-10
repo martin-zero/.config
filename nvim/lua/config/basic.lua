@@ -6,3 +6,5 @@ vim.opt.tabstop = 4 -- tab显示宽度
 vim.opt.wrap = false -- 不自动换行
 
 vim.opt.clipboard = "unnamedplus" -- 使用系统剪切板
+
+vim.cmd.colorscheme("catppuccin") -- 设置主题
