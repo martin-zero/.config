@@ -12,6 +12,8 @@ vim.pack.add({
 
 	-- 成对符号
 	{ src = "https://github.com/windwp/nvim-autopairs" },
+	-- 便捷括号包裹
+	{ src = "https://github.com/kylechui/nvim-surround", version = vim.version.range("4.x") },
 	-- catppuccin 主题
 	{ src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
 })
@@ -20,5 +22,6 @@ require("mason").setup()
 require("plugins.lspconfig")
 require("plugins.conform")
 require("plugins.nvim-autopairs")
+require("plugins.nvim-surround")
 require("plugins.theme")
 -- require("plugins.lualine")
