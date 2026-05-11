@@ -6,3 +6,5 @@ require("plugins")
 require("config.basic")
 -- 快捷键配置
 require("config.keymaps")
+-- lsp配置
+require("config.lsp")
