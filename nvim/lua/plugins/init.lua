@@ -34,6 +34,11 @@ vim.pack.add({
 	{ src = "https://github.com/saghen/blink.lib" },
 })
 
+-- 更新插件快速命令
+vim.api.nvim_create_user_command("PackUpdate", function()
+	vim.pack.update()
+end, {})
+
 require("plugins.mason")
 require("plugins.conform")
 require("plugins.lualine")
