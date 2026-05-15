@@ -32,5 +32,4 @@ if status is-interactive
     end
 
     zoxide init fish | source
-    starship init fish | source
 end
