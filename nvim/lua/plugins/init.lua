@@ -41,7 +41,7 @@ end, {})
 
 require("plugins.mason")
 require("plugins.conform")
-require("plugins.lualine")
+-- require("plugins.lualine")
 require("plugins.nvim-autopairs")
 require("plugins.nvim-surround")
 require("plugins.theme")
