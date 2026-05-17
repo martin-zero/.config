@@ -1,14 +1,29 @@
--- 关闭原生模式显示
-vim.opt.showmode = false
-require("lualine").setup({
-	sections = {
-		-- 编辑z区显示时间
-		lualine_z = {
-			{
-				"datetime",
-				-- options: default, us, uk, iso, or your own format string ("%H:%M", etc..)
-				style = "%H:%M",
+return {
+	{
+		"nvim-lualine/lualine.nvim",
+
+		event = "VeryLazy",
+
+		dependencies = {
+			"nvim-tree/nvim-web-devicons",
+		},
+
+		opts = {
+			sections = {
+				lualine_z = {
+					{
+						"datetime",
+						style = "%H:%M",
+					},
+				},
 			},
 		},
+
+		config = function(_, opts)
+			-- 关闭原生模式显示
+			vim.opt.showmode = false
+
+			require("lualine").setup(opts)
+		end,
 	},
-})
+}

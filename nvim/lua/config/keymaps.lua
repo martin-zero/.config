@@ -1,3 +1,5 @@
+-- 设置leader键
+vim.g.mapleader = " "
 -- 快速切换分屏窗口
 vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move to left window" })
 vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move to lower window" })

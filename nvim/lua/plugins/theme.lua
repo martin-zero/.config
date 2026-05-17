@@ -1,3 +1,3 @@
-require("catppuccin").setup({
-	flavour = "macchiato",
-})
+return {
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+}

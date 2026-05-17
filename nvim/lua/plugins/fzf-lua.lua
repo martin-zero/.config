@@ -1,7 +1,18 @@
-require("fzf-lua").setup({
-	winopts = {
-		preview = {
-			layout = "vertical", -- 关键：改成上下结构
+return {
+	{
+		"ibhagwan/fzf-lua",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+
+		---@module "fzf-lua"
+		---@type fzf-lua.Config|{}
+		---@diagnostic disable: missing-fields
+		opts = {
+			winopts = {
+				preview = {
+					layout = "vertical",
+				},
+			},
 		},
+		---@diagnostic enable: missing-fields
 	},
-})
+}

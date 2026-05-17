@@ -19,7 +19,7 @@ vim.opt.ignorecase = true
 -- 保存修改历史(退出重进还可以撤销上一步)
 vim.opt.undofile = true
 vim.opt.undodir = vim.fn.expand("~/.local/state/nvim/undo")
--- 设置主题
-vim.cmd.colorscheme("catppuccin")
 -- 上下保留5行缓冲区
 vim.opt.scrolloff = 5
+-- 设置主题
+vim.cmd.colorscheme("catppuccin")
