@@ -24,7 +24,7 @@ set -x CLAUDE_CODE_EFFORT_LEVEL max
 
     # 环境变量
     # fish_add_path /usr/local/bin
-    # fish_add_path /opt/homebrew/bin
+    fish_add_path /opt/homebrew/bin
     # fish_add_path $HOME/.local/bin
 
     # 设置别名
