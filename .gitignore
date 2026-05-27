@@ -7,3 +7,4 @@ zsh/.zsh_history
 fish/completions
 fish/functions
 /fish/fish_variables
+/nvim/nvim-pack-lock.json
