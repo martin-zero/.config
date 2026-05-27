@@ -8,3 +8,4 @@ fish/completions
 fish/functions
 /fish/fish_variables
 /nvim/nvim-pack-lock.json
+/nvim/lazy-lock.json
