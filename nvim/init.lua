@@ -35,3 +35,5 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+require("vim._core.ui2").enable({})
