@@ -1,2 +1,5 @@
 # 设置主题为Catppuccin Macchiato
 theme = "Catppuccin Macchiato"
+
+# option等价于alt
+macos-option-as-alt = true
