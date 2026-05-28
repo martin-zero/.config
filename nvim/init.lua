@@ -31,9 +31,10 @@ dofile(vim.g.base46_cache .. "statusline")
 
 require "options"
 require "autocmds"
+require "which_key"
 
 vim.schedule(function()
   require "mappings"
 end)
 
-require("vim._core.ui2").enable({})
+require("vim._core.ui2").enable {}
