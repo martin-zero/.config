@@ -13,3 +13,6 @@ map("i", "jk", "<ESC>")
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {
   desc = "Code Action(快速修复)",
 })
+
+vim.keymap.set("n", "<S-l>", ":bnext<CR>", { silent = true })
+vim.keymap.set("n", "<S-h>", ":bprevious<CR>", { silent = true })
