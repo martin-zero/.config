@@ -3,3 +3,5 @@ theme = "Catppuccin Macchiato"
 
 # option等价于alt
 macos-option-as-alt = true
+# 取消kill分屏二次确认
+confirm-close-surface = false
