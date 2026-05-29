@@ -1,13 +1,31 @@
-local wk = require "which-key"
-
-wk.register({
-  g = {
-    d = {
-      name = "跳转",
-      d = { vim.lsp.buf.definition, "定义" },
-      r = { vim.lsp.buf.references, "引用" },
-      i = { vim.lsp.buf.implementation, "实现" },
-      t = { vim.lsp.buf.type_definition, "类型定义" },
-    },
-  },
-}, { prefix = "" })
+-- local wk = require "which-key"
+-- wk.add {
+--   {
+--     "gd",
+--     function()
+--       vim.lsp.buf.definition()
+--     end,
+--     desc = "定义",
+--   },
+--   {
+--     "gi",
+--     function()
+--       vim.lsp.buf.implementation()
+--     end,
+--     desc = "实现",
+--   },
+--   {
+--     "gr",
+--     function()
+--       vim.lsp.buf.references()
+--     end,
+--     desc = "引用",
+--   },
+--   {
+--     "gt",
+--     function()
+--       vim.lsp.buf.type_definition()
+--     end,
+--     desc = "类型定义",
+--   },
+-- }
